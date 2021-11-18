@@ -1,0 +1,54 @@
+<span class="material-icons-outlined">
+location_on
+</span>
+
+
+font
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+
+font-family: 'Work Sans', sans-serif;
+a{
+    color: rgba(53, 28, 0, 0.932);
+}
+
+
+for position: @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;500&display=swap');
+
+
+
+PH ICON:
+<div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+turbidity icon:
+<div>Icons made by <a href="https://www.flaticon.com/authors/bomsymbols" title="BomSymbols">BomSymbols</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+dissolved oxygen:
+<div>Icons made by <a href="https://www.flaticon.com/authors/andre-luiz-gollo" title="André Luiz Gollo">André Luiz Gollo</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+conductivity icon:
+<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+temp:
+<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+volume of water t:
+<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+heading icon:
+<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+
+
+
+
+
+<ul>
+    <li><a href="#recent">Recent</a></li>
+    <li><a href="#parameters">Parameters</a></li>
+    <li><a href="#devices">Devices</a></li>
+</ul>
+
+
+
+

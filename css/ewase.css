@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;500&display=swap');
+
+body
+{
+    position: relative;
+    margin: 0 auto;
+    padding: 40px 50px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.5em;
+    background: rgba(60, 160, 173, 0.212) url("../img/background.jpg") no-repeat;
+}
+
+hr
+{
+    border: none;
+    border-top: 5px dotted rgba(2, 61, 2, 0.925);
+    width: 5%;
+    margin-bottom: 70px;
+}
+
+
+.back-image
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+header
+{
+    text-align: center;
+    max-width: 100%;
+}
+
+.sdg
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin: 30px 0;
+}
+
+.logo
+{
+    margin: 15px 0;
+}
+
+.logo h1
+{
+    color: green;
+    font-family: 'Work Sans', 'sans-serif';
+    font-weight: bold;
+    display: inline-block;
+}
+.logo p
+{
+    color: white;
+}
+
+.logo img
+{
+    vertical-align: middle;
+    width: 120px;
+    height: 120px;
+    border-radius: 30px;
+}
+
+.sdg-img
+{
+    width: 150px;
+    height: 150px;
+}
+
+.col2
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3px;
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    border-bottom: medium solid black;
+}
+
+.col1
+{
+    display: grid;
+    grid-row: 2;
+    gap: 10px;
+}
+
+.col2 a
+{
+    text-decoration: none;
+    margin: 0 26px;
+    padding: 15px 15px;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.col2-2
+{
+    font-size: 0.5em;
+}
+
+.devices
+{
+    display: block;
+}
+
+ul
+{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+li 
+{
+    display: inline;
+    transform: rotate(-30deg);
+}
+
+ul li a
+{
+    text-decoration: none;
+    padding: 5px 5px;
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.location
+{
+    max-width: 35%;
+    margin: 80px auto;
+}
+
+.location img
+{
+    float: left;
+    margin: 0 10px;
+    width: 110px;
+    height: 110px;
+}
+
+.location div
+{
+    padding: 0.003em 0;
+    color: rgba(6, 78, 87, 0.671);
+    font-weight: bold;
+}
+
+main
+{
+    clear: both;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#recent,#parameters
+{
+    text-align: center;
+}
+
+#recent h2, #parameters h2
+{
+    margin: 60px 0;
+    color:rgba(2, 61, 2, 0.925);
+}
+
+section a
+{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto 90px;
+    padding: 15px 15px;
+    background-color:rgba(95, 214, 95, 0.925);
+    color: #fff;
+    border-radius: 5px;
+}
+
+section a:hover
+{
+    background-color:rgba(59, 203, 223, 0.671);
+    color: #fff;
+}
+
+.colors
+{
+    font-size: 0.7em;
+    margin: 30px 0;
+}
+
+.colors div
+{
+    margin: 40px 0;
+}
+
+.colors em
+{
+    margin: 5px 10px;
+}
+
+.colors span
+{
+    width: 1%;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 30px;
+}
+
+#blue
+{
+    background-color: rgba(2, 57, 65, 0.904);
+}
+#green
+{
+    background-color: green;
+}
+#orange
+{
+    background-color: orange;
+}
+#red
+{
+    background-color: red;
+}
+#brown
+{
+    background-color: rgba(165, 42, 42, 0.945);
+}
+#darkbrown
+{
+    background-color: rgba(53, 28, 0, 0.932);
+}
+#skyblue
+{
+    background-color: skyblue;
+}
+#purple
+{
+    background-color: purple;
+}
+#whitesmoke
+{
+    background-color: whitesmoke;
+}
+#darkblue
+{
+    background-color: darkblue;
+}
+
+table
+{
+    margin: 0 auto 45px;
+}
+
+th
+{
+    font-size: 1.2em;
+}
+
+th, td
+{
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+
+footer
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    font-size: 0.8em;
+    font-weight: 500;
+    text-align: center;
+    /* color:rgba(2, 34, 59, 0.925); */
+    color:#fff;
+}
+
+.attributions
+{
+    text-align: left;
+}
+
+.attributions a
+{
+    text-decoration: none;
+    color: rgba(2, 34, 59, 0.925);
+    font-weight: bold;
+}
