@@ -13,12 +13,17 @@
 
     while($row = $rph->fetch())
     {
+        $cavg = test_vars($row['avgVal']);
+        $cday = test_vars($row['day']);
+        $cmin = test_vars($row['min']);
+        $cmax = test_vars($row['max']);
+
         echo <<<_TR
         <tr>
-            <td>${row['day']}</td>
-            <td><span class='ph avg'>${row['avgVal']}</span></td>
-            <td><span class='ph'>${row['min']}</span></td>
-            <td><span class='ph'>${row['max']}</span></td>
+            <td>${cday}</td>
+            <td><span class='ph avg'>${cavg}</span></td>
+            <td><span class='ph'>${cmin}</span></td>
+            <td><span class='ph'>${cmax}</span></td>
         <tr>
         _TR;
     }

@@ -13,10 +13,13 @@
 
     while($row = $rvowt->fetch())
     {
+        $cvalue = test_vars($row['value']);
+        $cday = test_vars($row['day']);
+
         echo <<<_TR
         <tr>
-            <td>${row['day']}</td>
-            <td><span>${row['value']}</span></td>
+            <td>${cday}</td>
+            <td><span>${cvalue}</span></td>
         <tr>
         _TR;
     }

@@ -13,12 +13,17 @@
 
     while($row = $rtemp->fetch())
     {
+        $cavg = test_vars($row['avgVal']);
+        $cday = test_vars($row['day']);
+        $cmin = test_vars($row['min']);
+        $cmax = test_vars($row['max']);
+
         echo <<<_TR
         <tr>
-            <td>${row['day']}</td>
-            <td><span class='temp avg'>${row['avgVal']}</span></td>
-            <td><span class='temp'>${row['min']}</span></td>
-            <td><span class='temp'>${row['max']}</span></td>
+            <td>${cday}</td>
+            <td><span class='temp avg'>${cavg}</span></td>
+            <td><span class='temp'>${cmin}</span></td>
+            <td><span class='temp'>${cmax}</span></td>
         <tr>
         _TR;
     }

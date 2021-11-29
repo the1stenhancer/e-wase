@@ -110,7 +110,7 @@
                         </thead>
                         <tbody><?php include_once($_SERVER['DOCUMENT_ROOT']."/ewase/includes/turbidity.php"); ?></tbody>
                     </table>
-                    <a href="">View all</a>
+                    <a href="all/all_tur.php" target="_blank">View all</a>
                 </article>
                 <hr>
                 <article id="tds">
@@ -134,7 +134,7 @@
                         </thead>
                         <tbody><?php include_once($_SERVER['DOCUMENT_ROOT']."/ewase/includes/tds.php"); ?></tbody>
                     </table>
-                    <a href="">View all</a>
+                    <a href="all/all_tds.php" target="_blank">View all</a>
                 </article>
                 <hr>
                 <article id="ec">
@@ -158,7 +158,7 @@
                         </thead>
                         <tbody><?php include_once($_SERVER['DOCUMENT_ROOT']."/ewase/includes/ec.php"); ?></tbody>
                     </table>
-                    <a href="">View all</a>
+                    <a href="all/all_ec.php" target="_blank">View all</a>
                 </article>
                 <hr>
                 <article id="do">
@@ -178,7 +178,7 @@
                         </thead>
                         <tbody><?php include_once($_SERVER['DOCUMENT_ROOT']."/ewase/includes/do.php"); ?></tbody>
                     </table>
-                    <a href="">View all</a>
+                    <a href="all/all_do.php" target="_blank">View all</a>
                 </article>
                 <hr>
                 <article id="temp">
@@ -189,7 +189,7 @@
                         </thead>
                         <tbody><?php include_once($_SERVER['DOCUMENT_ROOT']."/ewase/includes/temp.php"); ?></tbody>
                     </table>
-                    <a href="">View all</a>
+                    <a href="all/all_temp.php" target="_blank">View all</a>
                 </article>
                 <hr>
                 <article id="vowt">
@@ -200,7 +200,7 @@
                         </thead>
                         <tbody><?php include_once($_SERVER['DOCUMENT_ROOT']."/ewase/includes/vowt.php"); ?></tbody>
                     </table>
-                    <a href="">View all</a>
+                    <a href="all/all_vowt.php" target="_blank">View all</a>
                 </article>
             </section>
         </main>
